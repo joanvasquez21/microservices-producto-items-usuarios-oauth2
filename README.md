@@ -1,5 +1,6 @@
 # Implementando Oauth2
-Agregamos la dependencia de Oauth2
+Primeros pasos: 
+1.- Agregamos la dependencia de Oauth2
 ```<dependency>
 		<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
