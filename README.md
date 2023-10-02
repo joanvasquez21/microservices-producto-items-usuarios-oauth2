@@ -5,14 +5,14 @@ Primeros pasos:
 		<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
 			<version>2.3.8.RELEASE</version>
-		</dependency>```
-Trabajamos con la version 2.4.13
-```<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
+		</dependency>
+   <parent>
+       <groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
        <version>2.4.13</version>
-		<relativePath /> 
-	</parent>```
+        <relativePath /> 
+    </parent>```
+2.- Creamos nuestro paquete y nuestra clase
 En nuestro proyecto agregamos un nuevo paquete llamado "springboot-servicio-oauth"
 y creamos la clase "AuthorizationServerConfig" extendiendose de "AuthorizationServerConfigurerAdapter"
 La clase AuthorizationServerConfigurerAdapter tenemos que anotarle con  @Configuration y @EnableAutoConfiguration
